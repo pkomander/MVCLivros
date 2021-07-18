@@ -2,7 +2,30 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Highsoft.Highcharts/9.0.1.1": {
+      "DotNet.Highcharts/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/DotNet.Highcharts.dll": {}
+        },
+        "runtime": {
+          "lib/DotNet.Highcharts.dll": {}
+        }
+      },
+      "Highcharts.Net/2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "(, )"
+        },
+        "compile": {
+          "lib/net4.0/Highcharts.MVC.dll": {},
+          "lib/net4.0/Highcharts.dll": {}
+        },
+        "runtime": {
+          "lib/net4.0/Highcharts.MVC.dll": {},
+          "lib/net4.0/Highcharts.dll": {}
+        }
+      },
+      "Highsoft.Highcharts/9.1.2": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.1"
@@ -2694,14 +2717,77 @@
     }
   },
   "libraries": {
-    "Highsoft.Highcharts/9.0.1.1": {
-      "sha512": "ReFLJkZJIoUSjBzjjYUdboqqlBQ7Bh5IraUyjfMsGvuI/WvsxMQberbDn9RMTrKmDGr0DMfLR7ko3X/Du2cccQ==",
+    "DotNet.Highcharts/4.0.0": {
+      "sha512": "MnMMTUQXqoOMPN8GRMWniMm15nqbIAUVS+S8biXPbJW3z2fwz1Fxd5x08uQ5KvZB4+5LskYBOSEtYl00/Z2wMQ==",
       "type": "package",
-      "path": "highsoft.highcharts/9.0.1.1",
+      "path": "dotnet.highcharts/4.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "highsoft.highcharts.9.0.1.1.nupkg.sha512",
+        "content/Scripts/Highcharts-4.0.1/js/adapters/standalone-framework.js",
+        "content/Scripts/Highcharts-4.0.1/js/adapters/standalone-framework.src.js",
+        "content/Scripts/Highcharts-4.0.1/js/highcharts-3d.js",
+        "content/Scripts/Highcharts-4.0.1/js/highcharts-3d.src.js",
+        "content/Scripts/Highcharts-4.0.1/js/highcharts-all.js",
+        "content/Scripts/Highcharts-4.0.1/js/highcharts-more.js",
+        "content/Scripts/Highcharts-4.0.1/js/highcharts-more.src.js",
+        "content/Scripts/Highcharts-4.0.1/js/highcharts.js",
+        "content/Scripts/Highcharts-4.0.1/js/highcharts.src.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/canvas-tools.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/canvas-tools.src.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/data.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/data.src.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/drilldown.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/drilldown.src.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/exporting.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/exporting.src.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/funnel.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/funnel.src.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/heatmap.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/heatmap.src.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/no-data-to-display.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/no-data-to-display.src.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/solid-gauge.js",
+        "content/Scripts/Highcharts-4.0.1/js/modules/solid-gauge.src.js",
+        "content/Scripts/Highcharts-4.0.1/js/themes/dark-blue.js",
+        "content/Scripts/Highcharts-4.0.1/js/themes/dark-green.js",
+        "content/Scripts/Highcharts-4.0.1/js/themes/dark-unica.js",
+        "content/Scripts/Highcharts-4.0.1/js/themes/gray.js",
+        "content/Scripts/Highcharts-4.0.1/js/themes/grid-light.js",
+        "content/Scripts/Highcharts-4.0.1/js/themes/grid.js",
+        "content/Scripts/Highcharts-4.0.1/js/themes/sand-signika.js",
+        "content/Scripts/Highcharts-4.0.1/js/themes/skies.js",
+        "dotnet.highcharts.4.0.0.nupkg.sha512",
+        "dotnet.highcharts.nuspec",
+        "lib/DotNet.Highcharts.dll"
+      ]
+    },
+    "Highcharts.Net/2.0.3": {
+      "sha512": "JF78tx4uBycc4QEg3AW6I0xWJhT/A3yysewXToFAQiOe18O2zU/RxTeRTNqpHOR53arAKG0biDFuGMH8xmv0zw==",
+      "type": "package",
+      "path": "highcharts.net/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/web.config.transform",
+        "highcharts.net.2.0.3.nupkg.sha512",
+        "highcharts.net.nuspec",
+        "lib/net3.5/Highcharts.dll",
+        "lib/net3.5/Highcharts.pdb",
+        "lib/net4.0/Highcharts.MVC.dll",
+        "lib/net4.0/Highcharts.MVC.pdb",
+        "lib/net4.0/Highcharts.dll",
+        "lib/net4.0/Highcharts.pdb"
+      ]
+    },
+    "Highsoft.Highcharts/9.1.2": {
+      "sha512": "+vwuB41MWkXT9F2rdNNdYG/t4nWPoI4UBF0yKTP+I2zNxqJJvijSwsPjzzg1sUxfYZvM2uGpxyto5Pq7HjTEtA==",
+      "type": "package",
+      "path": "highsoft.highcharts/9.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "highsoft.highcharts.9.1.2.nupkg.sha512",
         "highsoft.highcharts.nuspec",
         "lib/netstandard2.0/Highcharts.dll",
         "license.txt"
@@ -8615,7 +8701,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Highsoft.Highcharts >= 9.0.1.1",
+      "DotNet.Highcharts >= 4.0.0",
+      "Highcharts.Net >= 2.0.3",
+      "Highsoft.Highcharts >= 9.1.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.5",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.12",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.12",
@@ -8659,9 +8747,17 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "DotNet.Highcharts": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "Highcharts.Net": {
+            "target": "Package",
+            "version": "[2.0.3, )"
+          },
           "Highsoft.Highcharts": {
             "target": "Package",
-            "version": "[9.0.1.1, )"
+            "version": "[9.1.2, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -8703,5 +8799,37 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Highcharts.Net 2.0.3 não fornece nenhum limite inferior inclusivo para a dependência Newtonsoft.Json. A melhor correspondência aproximada Newtonsoft.Json 3.5.8 foi resolvida.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'DotNet.Highcharts 4.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "DotNet.Highcharts",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Highcharts.Net 2.0.3' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Highcharts.Net",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

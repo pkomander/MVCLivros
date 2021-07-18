@@ -1,5 +1,3 @@
-using System;
-
 namespace MvcLivros.Models
 {
     public class ErrorViewModel

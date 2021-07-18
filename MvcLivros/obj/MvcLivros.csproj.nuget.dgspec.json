@@ -38,9 +38,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "DotNet.Highcharts": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Highcharts.Net": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
             "Highsoft.Highcharts": {
               "target": "Package",
-              "version": "[9.0.1.1, )"
+              "version": "[9.1.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

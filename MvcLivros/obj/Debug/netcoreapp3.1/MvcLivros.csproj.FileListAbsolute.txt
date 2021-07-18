@@ -170,3 +170,5 @@ C:\Users\prara\source\repos\MvcLivros\MvcLivros\obj\Debug\netcoreapp3.1\MvcLivro
 C:\Users\prara\source\repos\MvcLivros\MvcLivros\bin\Debug\netcoreapp3.1\Highcharts.dll
 C:\Users\prara\source\repos\MvcLivros\MvcLivros\obj\Debug\netcoreapp3.1\MvcLivros.csproj.CoreCompileInputs.cache
 C:\Users\prara\source\repos\MvcLivros\MvcLivros\obj\Debug\netcoreapp3.1\MvcLivros.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\prara\source\repos\MvcLivros\MvcLivros\bin\Debug\netcoreapp3.1\DotNet.Highcharts.dll
+C:\Users\prara\source\repos\MvcLivros\MvcLivros\bin\Debug\netcoreapp3.1\Highcharts.MVC.dll

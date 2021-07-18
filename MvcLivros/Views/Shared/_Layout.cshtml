@@ -19,8 +19,8 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         @*<li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>*@
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>*@
                         <li class="nav-item">
                             @*para passar o link de uma pagina, deve passar o controller e a pagina na qual deve fazer referencia*@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Livroes" asp-action="Index">Inicio</a>
@@ -47,6 +47,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/printThis.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

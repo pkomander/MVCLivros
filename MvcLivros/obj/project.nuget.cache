@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vgKVSDAuxWdKkNqPzNeCZAnTrdGsitwiWbDtY2IDsO23o+lKQPZ3qKCydHAx/2W8BNo+/xk34cPgMnV50pqdvw==",
+  "dgSpecHash": "/gs4BLQ+co1Zmq791k8OzeqPuR66+irE6bWC4pyGVQDsF7BVPSG3cd3fkkQS2e+Fw6GsmGfWQNJEV7F9wQ2XjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\prara\\source\\repos\\MvcLivros\\MvcLivros\\MvcLivros.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\prara\\.nuget\\packages\\highsoft.highcharts\\9.0.1.1\\highsoft.highcharts.9.0.1.1.nupkg.sha512",
+    "C:\\Users\\prara\\.nuget\\packages\\dotnet.highcharts\\4.0.0\\dotnet.highcharts.4.0.0.nupkg.sha512",
+    "C:\\Users\\prara\\.nuget\\packages\\highcharts.net\\2.0.3\\highcharts.net.2.0.3.nupkg.sha512",
+    "C:\\Users\\prara\\.nuget\\packages\\highsoft.highcharts\\9.1.2\\highsoft.highcharts.9.1.2.nupkg.sha512",
     "C:\\Users\\prara\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\prara\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\prara\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
@@ -169,5 +171,36 @@
     "C:\\Users\\prara\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\prara\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Highcharts.Net 2.0.3 não fornece nenhum limite inferior inclusivo para a dependência Newtonsoft.Json. A melhor correspondência aproximada Newtonsoft.Json 3.5.8 foi resolvida.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'DotNet.Highcharts 4.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "DotNet.Highcharts",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Highcharts.Net 2.0.3' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Highcharts.Net",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

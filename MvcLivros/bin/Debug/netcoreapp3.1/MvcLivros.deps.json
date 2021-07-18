@@ -24,7 +24,9 @@
     ".NETCoreApp,Version=v3.1": {
       "MvcLivros/1.0.0": {
         "dependencies": {
-          "Highsoft.Highcharts": "9.0.1.1",
+          "DotNet.Highcharts": "4.0.0",
+          "Highcharts.Net": "2.0.3",
+          "Highsoft.Highcharts": "9.1.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.12",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.12",
@@ -305,14 +307,39 @@
           "MvcLivros.dll": {}
         }
       },
-      "Highsoft.Highcharts/9.0.1.1": {
+      "DotNet.Highcharts/4.0.0": {
+        "runtime": {
+          "lib/DotNet.Highcharts.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/DotNet.Highcharts.dll": {}
+        }
+      },
+      "Highcharts.Net/2.0.3": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/net4.0/Highcharts.MVC.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net4.0/Highcharts.MVC.dll": {}
+        }
+      },
+      "Highsoft.Highcharts/9.1.2": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.1"
         },
         "runtime": {
           "lib/netstandard2.0/Highcharts.dll": {
-            "assemblyVersion": "9.0.1.1",
-            "fileVersion": "9.0.1.1"
+            "assemblyVersion": "9.1.2.0",
+            "fileVersion": "9.1.2.0"
           }
         },
         "compile": {
@@ -3938,12 +3965,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Highsoft.Highcharts/9.0.1.1": {
+    "DotNet.Highcharts/4.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ReFLJkZJIoUSjBzjjYUdboqqlBQ7Bh5IraUyjfMsGvuI/WvsxMQberbDn9RMTrKmDGr0DMfLR7ko3X/Du2cccQ==",
-      "path": "highsoft.highcharts/9.0.1.1",
-      "hashPath": "highsoft.highcharts.9.0.1.1.nupkg.sha512"
+      "sha512": "sha512-MnMMTUQXqoOMPN8GRMWniMm15nqbIAUVS+S8biXPbJW3z2fwz1Fxd5x08uQ5KvZB4+5LskYBOSEtYl00/Z2wMQ==",
+      "path": "dotnet.highcharts/4.0.0",
+      "hashPath": "dotnet.highcharts.4.0.0.nupkg.sha512"
+    },
+    "Highcharts.Net/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JF78tx4uBycc4QEg3AW6I0xWJhT/A3yysewXToFAQiOe18O2zU/RxTeRTNqpHOR53arAKG0biDFuGMH8xmv0zw==",
+      "path": "highcharts.net/2.0.3",
+      "hashPath": "highcharts.net.2.0.3.nupkg.sha512"
+    },
+    "Highsoft.Highcharts/9.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+vwuB41MWkXT9F2rdNNdYG/t4nWPoI4UBF0yKTP+I2zNxqJJvijSwsPjzzg1sUxfYZvM2uGpxyto5Pq7HjTEtA==",
+      "path": "highsoft.highcharts/9.1.2",
+      "hashPath": "highsoft.highcharts.9.1.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "type": "package",
